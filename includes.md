@@ -5,7 +5,7 @@ Methode : includes
 verifie si une valeur existe.
 
 2. PARAMÈTRES ACCEPTÉS
-
+valeur a charcher
 
 3. CE QU’ELLE RETOURNE
 true ou false
@@ -14,7 +14,11 @@ true ou false
 chercher une valeur
 
 5. CE QU’ELLE NE FAIT PAS ?
+ne donne pas la position de valeur 
 
 6. pratique : 
 const fruits = ["apple", "banana"];
 fruits.includes("apple");
+
+7. return : 
+true 
